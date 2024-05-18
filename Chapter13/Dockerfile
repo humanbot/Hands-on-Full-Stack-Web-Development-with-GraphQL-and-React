@@ -1,4 +1,4 @@
-FROM node:10 AS build
+FROM node:22.1 AS build
 WORKDIR /usr/src/app
 COPY .babelrc ./
 COPY package*.json ./
@@ -8,7 +8,7 @@ COPY src src
 COPY assets assets
 RUN npm install
 RUN npm run build
-FROM node:10
+FROM node:22.1
 WORKDIR /usr/src/app
 COPY --from=build /usr/src/app/package.json package.json
 COPY --from=build /usr/src/app/dist dist
