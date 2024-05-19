@@ -32,7 +32,7 @@
     "apollo-link-ws": "^1.0.12",
     "apollo-server-express": "^2.2.5",
     "apollo-upload-client": "^10.0.0",
-    "aws-sdk": "^2.387.0",
+    "aws-sdk": "^2.1608.0",
     "bcrypt": "^3.0.3",
     "compression": "^1.7.3",
     "cookies": "^0.7.3",
