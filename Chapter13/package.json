@@ -30,7 +30,7 @@
     "apollo-link-http": "^1.5.9",
     "apollo-link-persisted-queries": "^0.2.2",
     "apollo-link-ws": "^1.0.12",
-    "apollo-server-express": "^2.2.5",
+    "apollo-server-express": "^3.13.0",
     "apollo-upload-client": "^10.0.0",
     "aws-sdk": "^2.387.0",
     "bcrypt": "^3.0.3",
